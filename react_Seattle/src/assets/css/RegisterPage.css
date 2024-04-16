@@ -1,0 +1,50 @@
+
+.white-space-container {
+    position: relative;
+    min-height: 100vh; 
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    color: rgb(69, 62, 62);
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1; 
+}
+
+.register-modal {
+    z-index: 1;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    align-items: center;
+    width: 80%; 
+    max-width: 50rem; 
+    justify-self: center;
+}
+
+.hello-message {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.grey-space-container {
+    height: 20rem;
+    background-color: #333;
+}
+
+
+@media (max-width: 40rem) {
+    .register-modal {
+        width: 80%; 
+        max-width: none; 
+    }
+}
