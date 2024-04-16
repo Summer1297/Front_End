@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/common_styles.css">
+    <link rel="stylesheet" href="css/register_styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/project1/public/">
+            <img id="header__logo" src="images/cat245.jpeg" alt="a siberian forest cat walking in the road. " width="50" height="50">
+        </a>
+        <h1> Siberian Forest Cat</h1>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link"  href="">Home</a>
+                    <ul class="submenu">
+                        <li class="submenu__itme"><a class="submenu__link" href="/project1/public/">Paipai</a></li>
+                        <li class="submenu__itme"><a class="submenu__link" href="/project1/public/">More</a></li>
+                        <li class="submenu__itme"><a class="submenu__link" href="/project1/public/">Curled up</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href=".">About</a>
+                    <ul class="submenu">
+                        <li class="submenu__itme"><a class="submenu__link" href="/project1/public/about">Wiki</a></li>
+                            <li class="submenu__itme"><a class="submenu__link" href="/project1/public/about">History</a></li>
+                            <li class="submenu__itme"><a class="submenu__link" href="/project1/public/about">Siberians</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link"  href=".">Register</a>
+                    <ul class="submenu">
+                        <li class="submenu__itme"><a class="submenu__link" href=".">register</a></li>
+                        <li class="submenu__itme"><a class="submenu__link" href=".">right now</a></li>
+                        <li class="submenu__itme"><a class="submenu__link" href=".">go go go</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Member Registration</h1>
+
+        <p class="required-note">Fields marked with <span class="required">*</span> are required</p>
+                    <!-- Form  -->
+             <form action="/some/url" method="POST"> 
+                <label for="name">Name<span class="required">*</span></label>
+                <input id="name" name="Name" type="text" placeholder="your name" required/>
+                <label for="email">Email<span class="required">*</span></label>
+                <input id="email" name="Email" type="text"  required/>
+                <label for="annoy_me">Do you want us to send you annoying emails</label>
+                <input id="annoy_me" name="annoy_me" type="checkbox" checked/>
+                
+                <label  for="tier">Tier<span class="required">*</span></label>
+                <select id="tier" name="tier" required>
+                    <option value="">[Please select]</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tie</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+    </main>
+    <footer class="footer">
+        We really don't care about your privacy, see our <a class="footer__link" href="privacy.html">Privacy Policy</a>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+.main{
+    text-align: center;
+}
+.main h1{
+    padding: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    background-color: rgba(225, 225, 225, 0.5); /* 灰白色半透明背景 */
+    padding: 1rem; /* 内边距以增强可读性 */
+    margin: 2rem; /* 左右边距，可以根据需要调整 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* 阴影效果 */
+    
+}
+
+.footer{
+    display: flex;
+    background-color: #005b96;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    height: auto;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+@media(max-width:50rem) {
+    #root {
+        grid-template-rows: auto auto 1fr auto;
+    }
+    .main p{
+        max-width: 300px;
+    }
+    .menu {  
+        flex-direction: column;
+        justify-content: space-around; 
+        gap: 5px; 
+    }
+    .menu__link{    
+        padding: 0.25rem 2.5rem 0.25rem 2.5rem;
+
+    }
+}
+
