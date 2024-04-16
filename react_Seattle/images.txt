@@ -1,0 +1,15 @@
+//The pictures were all taken by myself
+
+header.jpeg
+myimages02.jpeg
+myimages03.jpeg
+myimages04.jpeg
+myimages05.jpeg
+myimages06.jpeg
+myimages07.jpeg
+
+//screenshot
+github.png
+google.png
+facebook.png
+linkedin.png
